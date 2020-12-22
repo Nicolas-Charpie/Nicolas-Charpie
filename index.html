@@ -1,27 +1,48 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="fr">
+    <head>        
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
+        <meta name="Nicolas Charpié" content="Mon incroyable blog">
         <title>Project: Blog</title>
-        <style> 
-        *{
-        background: linear-gradient(to right, red, black,blue);
-        color:white;
-        font-family:fantasy;
-        font-size: 21px;
-        
-        }
-        .animaux{
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link rel="icon" href="blog.ico" size="16x16"/>
+        <style type="text/css">
+        	 h1{
             font-weight: bold;
-        }
-          
+            font-size:36px;
+}
+
+*{
+    background: linear-gradient(to right, white, blue);
+    color:black;
+}
+
+.animaux{
+            font-weight: bold;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#header-blog{
+    position: absolute;
+    right:50px;
+}
+
+#joindre{
+    margin-left: 30px;
+}
         </style>
-       
-        
-        
     </head>
     <body>
-        
+        <header>
+        	<strong>Accueil</strong><a href= "mailto: nicolas.charpie@divtec.ch"><strong  id="joindre">Mejoindre</strong><strong id="header-blog">Mon blog - Nicolas Charpié</strong>
+        	<hr>
+        </header>
+
         <h1>Blog de Nicolas</h1>
 
         <h3>Table des matières</h3>
@@ -35,10 +56,9 @@
         <p>Voici la liste de mes animaux préférés</p>
         <ol>
             <li>Le cheval</li>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Mangalarga_Marchador_Conforma%C3%A7%C3%A3o.jpg/435px-Mangalarga_Marchador_Conforma%C3%A7%C3%A3o.jpg" alt="cheval"width="102">
-            <li>Le chat (trop mignon)</li><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Sleeping-cat.gif"alt="chat"width="210">
-            
-            <li>Le chien</li> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Deutscher_Sch%C3%A4ferhund-_portrait.JPG/144px-Deutscher_Sch%C3%A4ferhund-_portrait.JPG"alt="chien"width="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Mangalarga_Marchador_Conforma%C3%A7%C3%A3o.jpg/435px-Mangalarga_Marchador_Conforma%C3%A7%C3%A3o.jpg" alt="cheval"width="102px">
+            <li>Le chat (trop mignon)</li><img src="chat.gif"alt="chat"width="210px">
+            <li>Le chien</li> <img src="chien.gif"alt="chien"width="">
         </ol>
         <p>Mentions honorables : la luciole, les poissons, le lion</p>
         <h2></h2>
