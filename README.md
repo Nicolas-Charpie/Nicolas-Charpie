@@ -2,4 +2,4 @@
 
 - 👋 Hi, I’m @Nicolas-Charpie
 
-Réseaux : <a href="https://linktr.ee/nicolascharpie">Linktree>/a>
+Réseaux : <a href="https://linktr.ee/nicolascharpie">Linktree</a>
