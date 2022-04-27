@@ -9,5 +9,5 @@
   <li>Delphi</li>
   <li>Windev</li>
   <li>Python</li>
-
+</ul>
 Réseaux : <a href="https://linktr.ee/nicolascharpie">Linktree</a>
